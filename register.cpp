@@ -10,17 +10,17 @@
         };
         void stud :: getdata()
         {
-            cout<<"enter name";
+            cout<<"enter name:-  ";
             cin>>name;
-            cout<<"enter age";
+            cout<<"enter age:-  ";
             cin>>age;
         }
         void stud :: display()
         {
-            cout<<"name is:-"<<name;
-            cout<<"age is:-"<<age;
+            cout<<"name is:-  "<<name;
+            cout<<"\nage is:-  "<<age;
         }
-        void main ()
+        int main ()
         {
             stud s;
             s.getdata();
