@@ -24,8 +24,8 @@
             int score :: scorecount()
             {
                 runs = 0;
-                runs = (runs+(4*fours));
-                runs = (runs+(6*sixes));
+                runs = runs+(4*fours);
+                runs = runs+(6*sixes);
             }
             void score :: display()
             {
@@ -38,6 +38,7 @@
             {
                 score s;
                 s.getdata();
+                s.scorecount();
                 s.display();
 
             }
